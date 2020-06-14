@@ -1,12 +1,6 @@
 
-## Linear Regression Model History
-Developed by Sir Francis Galton (1822-1911) in his article “Regression towards mediocrity in hereditary structure”
+## TO-DO LIST
 
-![alt text](https://github.com/bacdillon/Python/tree/master/Django/MainScreen.jpg)
+![alt text](https://github.com/bacdillon/Python/tree/master/Django/To-Do%20List/MainScreen.jpg)
 
-## Purpose
-• To describe the linear relationship between two continuous variables, the response variable (y-axis) and a single predictor variable (x-axis) 
-
-• To determine how much of the variation in Y can be explained by the linear relationship with X and how much of this relationship remains unexplained 
-
-• To predict new values of Y from new values of X
+A simple to-do allows you to better manage your time by allowing you to lay out what you need to accomplish and then coordinate your time from there. When you first compose it, you’ll note the most important tasks and make time for them. You can also see if certain tasks can be easily coordinated. For example, if you have a business lunch near a store that you need to go to, you can plan to accomplish both on the same run.
