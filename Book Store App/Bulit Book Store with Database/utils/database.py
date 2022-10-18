@@ -1,57 +1,43 @@
-import sqlite3
+from typing import List, Tuple
 
-"""
-Store and retrive books from a json file.
-[
-    {
-        'name': 'Animal Farm',
-        'author': 'George Orwell',
-        'read': True
-    }
-]
-"""
+from utils.database_connection import DatabaseConnection
 
-def create_book_table():
-    connection = sqlite3.connect('data.db')
-    cursor = connection.cursor()
-    cursor.execute('CREATE TABLE IF NOT EXISTS books(name text primary key, author text, read integer)')
-
-    connection.commit()
-    connection.close()
-
-def add_book(name, author):
-    connection = sqlite3.connect('data.db')
-    cursor = connection.cursor()
-    cursor.execute(f'INSERT INTO books VALUES(?, ?, 0)', (name, author))
-
-    connection.commit()
-    connection.close()
+Book = Tuple[int, str, str, int]
 
 
-def get_all_books():
-    connection = sqlite3.connect('data.db')
-    cursor = connection.cursor()
+def create_book_table() -> None:
+    with DatabaseConnection('data.db') as connection:
+        cursor = connection.cursor()
 
-    cursor.execute('SELECT * FROM books')
-    books = [{'name': row[0], 'author': row[1], 'read': row[2]} for row in cursor.fetchall()]  # [(name, author, read), (name, author, read)]
-    connection.close()
+        # SQLite automatically makes `integer primary key` row auto-incrementing (see link in further reading)
+        cursor.execute('CREATE TABLE books (id integer primary key, name text, author text, read integer default 0)')
 
+
+def get_all_books() -> List[Book]:
+    with DatabaseConnection('data.db') as connection:
+        cursor = connection.cursor()
+
+        cursor.execute('SELECT * FROM books')
+        books = cursor.fetchall()
     return books
 
-def mark_book_as_read(name):
-    connection = sqlite3.connect('data.db')
-    cursor = connection.cursor()
 
-    cursor.execute('UPDATE books SET read=1 WHERE name=?', (name,))
+def insert_book(name: str, author: str) -> None:
+    with DatabaseConnection('data.db') as connection:
+        cursor = connection.cursor()
 
-    connection.commit()
-    connection.close()
+        cursor.execute('INSERT INTO books (name, author) VALUES (?, ?)', (name, author))
 
-def delete_book(name):
-    connection = sqlite3.connect('data.db')
-    cursor = connection.cursor()
 
-    cursor.execute('DELETE FROM books WHERE name=?', (name,))
+def mark_book_as_read(name: str) -> None:
+    with DatabaseConnection('data.db') as connection:
+        cursor = connection.cursor()
 
-    connection.commit()
-    connection.close()
+        cursor.execute('UPDATE books SET read=1 WHERE name=?', (name,))
+
+
+def delete_book(name: str) -> None:
+    with DatabaseConnection('data.db') as connection:
+        cursor = connection.cursor()
+
+        cursor.execute('DELETE FROM books WHERE name=?', (name,))

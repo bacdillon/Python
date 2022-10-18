@@ -1,14 +1,17 @@
 from utils import database
 
 USER_CHOICE = """
+
 Enter:
-- 'a' to add a new book
-- 'l' to list all books
-- 'r' to mark a book as read
-- 'd' to delete a book
-- 'q' to quit
+
+'a' to add a new book
+'l' to list all books
+'r' to mark a book as read
+'d' to delete a book
+'q' to quit
 
 Your choice: """
+
 
 def menu():
     database.create_book_table()
@@ -25,17 +28,18 @@ def menu():
 
         user_input = input(USER_CHOICE)
 
+
 def prompt_add_book():
     name = input('Enter the new book name: ')
     author = input('Enter the new book author: ')
 
-    database.add_book(name, author)
+    database.insert_book(name, author)
+
 
 def list_books():
-    books = database.get_all_books()
-    for book in books:
-        read = 'YES' if book['read'] else 'NO'
-        print(f"{book['name']} by {book['author']} — Read: {read}")
+    for book in database.get_all_books():
+        read = 'YES' if book[3] else 'NO'  # book[3] will be a falsy value (0) if not read
+        print(f'{book[1]} by {book[2]} — Read: {read}')
 
 
 def prompt_read_book():
