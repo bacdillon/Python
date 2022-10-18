@@ -3,5 +3,5 @@
 
 A console-based book store system that allows users to:
  - Enter and retrieve book details.
- - Mark books as read (meaning they’ve finished reading them).
+ - Mark books has read
  - Delete existing books
