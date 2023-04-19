@@ -1,8 +1,0 @@
-pip install streamlit
-pip install requests
-pip install  PyArrow
-pip install streamlit-lottie
-pip install pillow
-
-streamlit run app.py
-
