@@ -1,4 +1,4 @@
-# The fastest way to build and share data apps.**
+# The fastest way to build and share data apps.
 <br>
 [Host your Streamlit App for free](https://blog.streamlit.io/host-your-streamlit-app-for-free/)
 ![alt_text](https://github.com/bacdillon/Python/blob/master/streamlit/Images/streamlit.jpg)
