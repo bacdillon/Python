@@ -1,0 +1,3 @@
+2025-07-19 11:04:48,450 | INFO | Script started.
+2025-07-19 11:04:48,452 | WARNING | This is a warning.
+2025-07-19 11:04:48,452 | ERROR | An error occurred.
