@@ -5,4 +5,4 @@ folder = Path(r"C:\DEVELOPMENT\PYTHON\Python Scripting\FileFolderOperations\Gene
 # Create the folder if it doesn't exist
 folder.mkdir(parents=True, exist_ok=True)
 
-print("✅ Folder is ready:", folder)
+print("Folder is ready:", folder)
