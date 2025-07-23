@@ -5,12 +5,12 @@ file_path = r"C:\DEVELOPMENT\PYTHON\Python Scripting\File & Folder Operations\da
 
 # Check if folder exists
 if os.path.isdir(folder_path):
-    print("✅ Folder exists.")
+    print("Folder exists.")
 else:
-    print("❌ Folder does not exist.")
+    print("Folder does not exist.")
 
 # Check if file exists
 if os.path.isfile(file_path):
-    print("✅ File exists.")
+    print("File exists.")
 else:
-    print("❌ File not found.")
+    print("File not found.")
