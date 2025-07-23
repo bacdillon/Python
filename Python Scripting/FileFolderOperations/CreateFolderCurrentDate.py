@@ -20,4 +20,4 @@ full_path = base_dir / folder_name
 # Create folder
 full_path.mkdir(parents=True, exist_ok=True)
 
-print(f"✅ Folder created: {full_path}")
+print(f"Folder created: {full_path}")
