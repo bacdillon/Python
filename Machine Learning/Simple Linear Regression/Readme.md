@@ -36,8 +36,7 @@ Instead of relying on intuition, historical sales data is used to build a predic
 # Dataset
 The dataset contains two variables.<br>
 Temperature (°C) - Daily outdoor temperature<br>
-Revenue ($) -	Ice cream stand daily revenue<br><br>
-
+Revenue ($) -	Ice cream stand daily revenue<br>
 The objective is to predict Revenue from Temperature.
 
 # Technologies Used
