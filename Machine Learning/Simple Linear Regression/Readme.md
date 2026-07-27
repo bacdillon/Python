@@ -79,7 +79,7 @@ The notebook follows the standard supervised learning workflow.
 
 # Regression Model
 The Linear Regression model learns the equation:<br>
-Revenue = (Slope × Temperature) + Intercept<br>
+Revenue = (Slope × Temperature) + Intercept 
 Where:
 •	Slope (m) represents the increase in revenue for every 1°C rise in temperature.<br>
 •	Intercept (b) represents the estimated revenue when the temperature is 0°C.
