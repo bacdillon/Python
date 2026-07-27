@@ -1,5 +1,7 @@
 # Simple Linear Regression – Ice Cream Revenue Prediction
-A beginner-friendly Machine Learning project that demonstrates how Simple Linear Regression can be used to predict ice cream revenue based on temperature using Python and Scikit-learn.
+A beginner Machine Learning project that demonstrates how Simple Linear Regression can be used to predict ice cream revenue based on temperature using Python and Scikit-learn.
+
+![alt_text](https://github.com/bacdillon/Python/blob/master/streamlit/Images/streamlit.jpg)
 
 # Project Overview
 This project builds a Simple Linear Regression model to predict the daily revenue of an ice cream stand using historical temperature data.
@@ -34,10 +36,10 @@ Instead of relying on intuition, historical sales data is used to build a predic
 •	Evaluate the regression model visually<br>
 
 # Dataset
-The dataset contains two variables.
-Variable	Description
-Temperature (°C)	Daily outdoor temperature
-Revenue ($)	Ice cream stand daily revenue
+The dataset contains two variables.<br>
+Temperature (°C) - Daily outdoor temperature<br>
+Revenue ($) -	Ice cream stand daily revenue<br>
+
 The objective is to predict Revenue from Temperature.
 
 # Technologies Used
@@ -78,10 +80,10 @@ The notebook follows the standard supervised learning workflow.
 10.	Predict revenue for new temperature values
 
 # Regression Model
-The Linear Regression model learns the equation:
-Revenue = (Slope × Temperature) + Intercept
-Where:
-•	Slope (m) represents the increase in revenue for every 1°C rise in temperature.
+The Linear Regression model learns the equation:<br>
+Revenue = (Slope × Temperature) + Intercept <br><br>
+Where:<br>
+•	Slope (m) represents the increase in revenue for every 1°C rise in temperature.<br>
 •	Intercept (b) represents the estimated revenue when the temperature is 0°C.
 
 # Model Prediction
@@ -99,47 +101,47 @@ Example Output
 Predicted Revenue: $685.32
 (Actual value depends on the trained model.)
 
-# Key Concepts Covered
-•	Machine Learning
-•	Supervised Learning
-•	Regression Analysis
-•	Simple Linear Regression
-•	Exploratory Data Analysis (EDA)
-•	Data Visualization
-•	Feature Selection
-•	Train-Test Split
-•	Model Training
-•	Prediction
-•	Regression Coefficients
-•	Business Forecasting
+# Key Concepts Covered <br>
+•	Machine Learning <br>
+•	Supervised Learning <br>
+•	Regression Analysis <br>
+•	Simple Linear Regression <br>
+•	Exploratory Data Analysis (EDA) <br>
+•	Data Visualization <br>
+•	Feature Selection <br>
+•	Train-Test Split <br>
+•	Model Training <br>
+•	Prediction <br>
+•	Regression Coefficients <br>
+•	Business Forecasting <br>
 
 # Learning Outcomes
-•	Load datasets with Pandas
-•	Perform exploratory data analysis
-•	Visualize relationships between variables
-•	Build a Simple Linear Regression model
-•	Train a machine learning model using Scikit-learn
-•	Interpret model coefficients
-•	Predict new values
-•	Visualize regression results
-•	Apply machine learning to solve business problems
+•	Load datasets with Pandas<br>
+•	Perform exploratory data analysis<br>
+•	Visualize relationships between variables<br>
+•	Build a Simple Linear Regression model<br>
+•	Train a machine learning model using Scikit-learn<br>
+•	Interpret model coefficients<br>
+•	Predict new values<br>
+•	Visualize regression results<br>
+•	Apply machine learning to solve business problems<br>
 
 # Business Value
-This project demonstrates how machine learning can support business decisions by:
-•	Forecasting daily sales
-•	Planning inventory
-•	Optimizing staffing levels
-•	Understanding customer purchasing behavior
-•	Supporting data-driven decision making
+This project demonstrates how machine learning can support business decisions by:<br>
+•	Forecasting daily sales<br>
+•	Planning inventory<br>
+•	Optimizing staffing levels<br>
+•	Understanding customer purchasing behavior<br>
+•	Supporting data-driven decision making<br>
 
 # Future Enhancements
-Possible improvements include:
-•	Calculate MAE, MSE, RMSE, and R² Score
-•	Add model evaluation metrics
-•	Perform residual analysis
-•	Compare multiple regression algorithms
-•	Extend to Multiple Linear Regression
-•	Build a Streamlit web application
+Possible improvements include:<br>
+•	Calculate MAE, MSE, RMSE, and R² Score<br>
+•	Add model evaluation metrics<br>
+•	Perform residual analysis<br>
+•	Compare multiple regression algorithms<br>
+•	Extend to Multiple Linear Regression<br>
+•	Build a Streamlit web application<br>
 •	Deploy the model using Flask or FastAPI
 
 # Acknowledgements
