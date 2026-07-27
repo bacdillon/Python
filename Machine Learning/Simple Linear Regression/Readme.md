@@ -99,10 +99,10 @@ Example Output
 Predicted Revenue: $685.32
 (Actual value depends on the trained model.)
 
-# Key Concepts Covered
-•	Machine Learning
-•	Supervised Learning
-•	Regression Analysis
+# Key Concepts Covered <br>
+•	Machine Learning <br>
+•	Supervised Learning <br>
+•	Regression Analysis <br>
 •	Simple Linear Regression
 •	Exploratory Data Analysis (EDA)
 •	Data Visualization
