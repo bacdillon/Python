@@ -103,26 +103,26 @@ Predicted Revenue: $685.32
 •	Machine Learning <br>
 •	Supervised Learning <br>
 •	Regression Analysis <br>
-•	Simple Linear Regression
-•	Exploratory Data Analysis (EDA)
-•	Data Visualization
-•	Feature Selection
-•	Train-Test Split
-•	Model Training
-•	Prediction
-•	Regression Coefficients
-•	Business Forecasting
+•	Simple Linear Regression <br>
+•	Exploratory Data Analysis (EDA) <br>
+•	Data Visualization <br>
+•	Feature Selection <br>
+•	Train-Test Split <br>
+•	Model Training <br>
+•	Prediction <br>
+•	Regression Coefficients <br>
+•	Business Forecasting <br>
 
 # Learning Outcomes
-•	Load datasets with Pandas
-•	Perform exploratory data analysis
-•	Visualize relationships between variables
-•	Build a Simple Linear Regression model
-•	Train a machine learning model using Scikit-learn
-•	Interpret model coefficients
-•	Predict new values
-•	Visualize regression results
-•	Apply machine learning to solve business problems
+•	Load datasets with Pandas<br>
+•	Perform exploratory data analysis<br>
+•	Visualize relationships between variables<br>
+•	Build a Simple Linear Regression model<br>
+•	Train a machine learning model using Scikit-learn<br>
+•	Interpret model coefficients<br>
+•	Predict new values<br>
+•	Visualize regression results<br>
+•	Apply machine learning to solve business problems<br>
 
 # Business Value
 This project demonstrates how machine learning can support business decisions by:
