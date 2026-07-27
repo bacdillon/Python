@@ -34,10 +34,10 @@ Instead of relying on intuition, historical sales data is used to build a predic
 •	Evaluate the regression model visually<br>
 
 # Dataset
-The dataset contains two variables.
-Variable	Description
-Temperature (°C)	Daily outdoor temperature
-Revenue ($)	Ice cream stand daily revenue
+The dataset contains two variables.<br>
+Temperature (°C) - Daily outdoor temperature<br>
+Revenue ($) -	Ice cream stand daily revenue<br><br>
+
 The objective is to predict Revenue from Temperature.
 
 # Technologies Used
