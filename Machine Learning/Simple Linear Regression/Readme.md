@@ -78,10 +78,10 @@ The notebook follows the standard supervised learning workflow.
 10.	Predict revenue for new temperature values
 
 # Regression Model
-The Linear Regression model learns the equation:
-Revenue = (Slope × Temperature) + Intercept
+The Linear Regression model learns the equation:<br>
+Revenue = (Slope × Temperature) + Intercept<br>
 Where:
-•	Slope (m) represents the increase in revenue for every 1°C rise in temperature.
+•	Slope (m) represents the increase in revenue for every 1°C rise in temperature.<br>
 •	Intercept (b) represents the estimated revenue when the temperature is 0°C.
 
 # Model Prediction
