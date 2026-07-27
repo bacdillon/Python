@@ -125,21 +125,21 @@ Predicted Revenue: $685.32
 •	Apply machine learning to solve business problems<br>
 
 # Business Value
-This project demonstrates how machine learning can support business decisions by:
-•	Forecasting daily sales
-•	Planning inventory
-•	Optimizing staffing levels
-•	Understanding customer purchasing behavior
-•	Supporting data-driven decision making
+This project demonstrates how machine learning can support business decisions by:<br>
+•	Forecasting daily sales<br>
+•	Planning inventory<br>
+•	Optimizing staffing levels<br>
+•	Understanding customer purchasing behavior<br>
+•	Supporting data-driven decision making<br>
 
 # Future Enhancements
-Possible improvements include:
-•	Calculate MAE, MSE, RMSE, and R² Score
-•	Add model evaluation metrics
-•	Perform residual analysis
-•	Compare multiple regression algorithms
-•	Extend to Multiple Linear Regression
-•	Build a Streamlit web application
+Possible improvements include:<br>
+•	Calculate MAE, MSE, RMSE, and R² Score<br>
+•	Add model evaluation metrics<br>
+•	Perform residual analysis<br>
+•	Compare multiple regression algorithms<br>
+•	Extend to Multiple Linear Regression<br>
+•	Build a Streamlit web application<br>
 •	Deploy the model using Flask or FastAPI
 
 # Acknowledgements
