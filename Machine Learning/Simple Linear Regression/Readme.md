@@ -1,6 +1,8 @@
 # Simple Linear Regression – Ice Cream Revenue Prediction
 A beginner Machine Learning project that demonstrates how Simple Linear Regression can be used to predict ice cream revenue based on temperature using Python and Scikit-learn.
 
+![alt_text](https://github.com/bacdillon/Python/blob/master/streamlit/Images/streamlit.jpg)
+
 # Project Overview
 This project builds a Simple Linear Regression model to predict the daily revenue of an ice cream stand using historical temperature data.
 The notebook demonstrates the complete machine learning workflow, including:<br>
