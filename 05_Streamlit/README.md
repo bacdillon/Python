@@ -3,4 +3,4 @@
 
 ![alt_text](https://github.com/bacdillon/Python/blob/master/streamlit/Images/streamlit.jpg)
 
-![alt_text](https://github.com/bacdillon/Python/blob/master/streamlit/Images/Data%20Science.jpg)
+![alt_text](https://raw.githubusercontent.com/bacdillon/Python/refs/heads/master/05_Streamlit/Images/Data%20Science.jpg)
