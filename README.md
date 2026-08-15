@@ -1,1 +1,6 @@
-
+01_Python_Fundamentals
+02_Python_Automation
+03_Data
+04_Machine_Learning
+05_Streamlit
+06_Projects
