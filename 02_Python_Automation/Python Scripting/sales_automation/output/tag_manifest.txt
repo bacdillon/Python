@@ -1,0 +1,15 @@
+TAG MANIFEST
+============
+
+Report File:
+daily_sales_report.xlsx
+
+SHA-256:
+55f1dea386b00308f4a075875e5a25572743c169c47e7fab30ec3c2d2333078b
+
+
+Metadata File:
+daily_sales_report_metadata.txt
+
+SHA-256:
+2df4c9e8da87398719aa6978f871028aca35ae1b9e83611752df7903c7a95be3
