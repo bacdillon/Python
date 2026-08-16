@@ -20,4 +20,3 @@ documenting the report
 checking file integrity
 sending reports by email
 
-Overall, it demonstrates how Python can turn a repetitive business reporting task into a consistent, repeatable, and automated workflow.
