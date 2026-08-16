@@ -12,11 +12,11 @@ Finally, when email credentials are configured, the script automatically sends t
 
 The automation replaces repetitive manual work such as:
 
-collecting sales spreadsheets
-copying and combining data
-calculating totals
-preparing reports
-documenting the report
-checking file integrity
-sending reports by email
+- Collecting sales spreadsheets
+- Copying and combining data
+- Calculating totals
+- Preparing reports
+- Documenting the report
+- Checking file integrity
+- Sending reports by email
 
