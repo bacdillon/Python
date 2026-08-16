@@ -10,10 +10,10 @@ The script uses Pandas to read and inspect Excel data and OpenPyXL to modify and
 
 This automation reduces repetitive manual work involved in reviewing Excel reports, such as:
 
-opening and reviewing spreadsheets
-identifying scores that meet a specific threshold
-manually highlighting important values
-applying consistent formatting
-saving the updated report
+- Opening and reviewing spreadsheets
+- Identifying scores that meet a specific threshold
+- Manually highlighting important values
+- Applying consistent formatting
+- Saving the updated report
 
 
