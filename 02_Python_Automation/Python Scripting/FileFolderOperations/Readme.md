@@ -8,8 +8,8 @@ The scripts use both Python's os module and pathlib to work with directories and
 
 These scripts automate common file and folder management tasks that would otherwise require repetitive manual work, such as:
 
-creating required folders for reports or other files
-checking whether files and folders already exist
-avoiding errors caused by missing directories
-creating uniquely named folders using the user and current timestamp
-preparing consistent folder structures for automated workflows
+- Creating required folders for reports or other files
+- Checking whether files and folders already exist
+- Avoiding errors caused by missing directories
+- Creating uniquely named folders using the user and current timestamp
+- Preparing consistent folder structures for automated workflows
