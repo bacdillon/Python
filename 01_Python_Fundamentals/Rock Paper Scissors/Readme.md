@@ -10,5 +10,5 @@ While loop: compare player selection and computer selection. Determine who won o
 * Track the wins and print the results
 * Ask the user if they want to continue to play
 
-![alt_text](https://raw.githubusercontent.com/bacdillon/Python/refs/heads/master/Mini%20Projects/Rock%20Paper%20Scissors/Output.JPG)
+![alt_text](https://raw.githubusercontent.com/bacdillon/Python/refs/heads/master/01_Python_Fundamentals/Rock%20Paper%20Scissors/Output.JPG)
 
