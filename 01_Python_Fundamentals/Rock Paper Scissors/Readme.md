@@ -1,6 +1,6 @@
 
 ## Rock, Paper, Scissors
-![alt_text](https://raw.githubusercontent.com/bacdillon/Python/refs/heads/master/Mini%20Projects/Rock%20Paper%20Scissors/Rock-paper-scissors.jpg)
+![alt_text](https://raw.githubusercontent.com/bacdillon/Python/refs/heads/master/01_Python_Fundamentals/Rock%20Paper%20Scissors/Rock-paper-scissors.jpg)
 
 * Create variables to track wins for the player and the computer.
 * Get input from user to choose Rock, Paper, or Scissors.
