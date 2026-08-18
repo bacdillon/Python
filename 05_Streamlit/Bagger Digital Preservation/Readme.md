@@ -1,4 +1,4 @@
-# BagIt Bagger: Digital Preservation Learning App
+# Bagger: Digital Preservation Learning App
 
 An educational Streamlit application that teaches and demonstrates the **BagIt** digital preservation packaging standard — the same kind of standard used by libraries, archives, and institutions like the Library of Congress to package digital files for long-term storage and transfer, with built-in integrity verification.
 
