@@ -1,4 +1,4 @@
-# Bagger: Digital Preservation Learning App
+# Bagger Digital Preservation
 
 Educational Streamlit implementation inspired by the supplied Bagger guide.
 This is NOT the official Library of Congress Bagger application. An educational streamlit application that teaches and demonstrates the **BagIt** digital preservation packaging standard, with libraries, archives, and institutions like the Library of Congress to package digital files for long-term storage and transfer, with built-in integrity verification.
