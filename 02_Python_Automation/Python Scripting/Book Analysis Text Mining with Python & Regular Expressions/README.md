@@ -1,6 +1,6 @@
 # Book Analysis: Text Mining with Python & Regular Expressions
 
-The notebook applies regular expression based text mining to a historical article about Tan Tock Seng, the founder of Tan Tock Seng Hospital in Singapore.
+The Jupyter notebook applies regular expression based text mining to a historical article about Tan Tock Seng, the founder of Tan Tock Seng Hospital in Singapore.
 
 ## Overview
 
