@@ -6,7 +6,7 @@ from pathlib import PurePosixPath
 import streamlit as st
 
 st.set_page_config(page_title="Python BagIt Bagger", page_icon="📦", layout="wide")
-st.title("📦 BagIt / Bagger Digital Preservation Learning App")
+st.title("📦 Bagger Digital Preservation")
 st.write("**Educational Streamlit implementation inspired by the supplied Bagger guide.**")
 st.warning("This is NOT the official Library of Congress Bagger application.")
 
