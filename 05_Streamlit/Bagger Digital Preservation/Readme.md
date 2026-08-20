@@ -1,7 +1,7 @@
 # Bagger Digital Preservation
 
 Implementation using Streamlit, inspired by the supplied Bagger guide.<br>
-This is NOT the official Library of Congress Bagger application. 
+This is NOT the official Library of Congress Bagger application. <br>
 This demonstrates the **BagIt** digital preservation packaging standard, with libraries, archives, and institutions like the Library of Congress to package digital files for long-term storage and transfer, with built-in integrity verification.
 
 ## Overview
