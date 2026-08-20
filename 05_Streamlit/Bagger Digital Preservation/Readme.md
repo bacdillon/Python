@@ -6,4 +6,4 @@ This demonstrates the **BagIt** digital preservation packaging standard, with li
 
 ## Overview
 
-This project is a hands-on learning tool for the BagIt specification, a real, widely used standard in digital archiving and records management. It lets a user package a set of files into a properly structured "Bag". Complete with metadata about who sent it and checksums that prove the files haven't been altered and then verify that a Bag is still intact and untampered. It's explicitly built as an educational implementation, clearly labeled as inspired by (but distinct from) the official Library of Congress Bagger tool, giving someone a safe, practical way to learn the standard by using it.
+This project demonstrates how BagIt/Bagger packages, transfers, and validates digital files for preservation. The Rotterdam Deck Plans PDF is used as the sample payload. Users enter Bag Information, such as the bag name, transfer type, sender contact, and institution, then add the PDF. Bagger creates a BagIt package containing the file, metadata, and checksums. The bag can then be validated to confirm its structure and file integrity.
