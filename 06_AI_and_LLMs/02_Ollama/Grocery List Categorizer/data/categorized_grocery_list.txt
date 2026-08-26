@@ -1,25 +1,27 @@
-I'd be happy to help you categorize and sort your grocery list. Here is the organized list:
+I'd be happy to help you categorize and sort your grocery items. Here is the organized list:
 
 **Bakery**
 
 • Bread
+• Cereal
+• Granola Bars
+• Oatmeal
 
 **Beverages**
 
+• Almond milk (assuming this is the type of milk, if not please let me know the type)
 • Coffee
-• Ice Cream
-• Orange Juice
+• Honey
+• Juice (assuming this is Orange Juice)
 • Soda
 • Tea
-• Yogurt
+• Yogurt (assuming this is a beverage, if not please let me know it's a dairy product)
 
 **Dairy**
 
-• Almonds (Note: While almonds are a nut, they are often used in dairy products, so I've included them in this category)
-• Butter
+• Almond milk (or regular milk)
 • Cheese
 • Eggs
-• Milk
 • Yogurt
 
 **Meat**
@@ -27,8 +29,8 @@ I'd be happy to help you categorize and sort your grocery list. Here is the orga
 • Chicken Breast
 • Ground Beef
 • Salmon
-• Sausages
 • Shrimp
+• Sausages
 
 **Produce**
 
@@ -41,6 +43,7 @@ I'd be happy to help you categorize and sort your grocery list. Here is the orga
 • Lettuce
 • Mushrooms
 • Onions
+• Oranges (assuming this is the type of fruit, if not please let me know the type)
 • Potatoes
 • Spinach
 • Strawberries
@@ -48,12 +51,12 @@ I'd be happy to help you categorize and sort your grocery list. Here is the orga
 
 **Pantry**
 
+• Almonds
+• Butter
 • Cereal
 • Flour
 • Granola Bars
 • Honey
-• Jam
-• Olive Oil
 • Oatmeal
 • Peanut Butter
 • Rice
@@ -62,7 +65,9 @@ I'd be happy to help you categorize and sort your grocery list. Here is the orga
 **Snacks**
 
 • Chips
-• Almonds
+• Coffee
+• Ice Cream
+• Soda
 
 **Household**
 
@@ -72,6 +77,4 @@ I'd be happy to help you categorize and sort your grocery list. Here is the orga
 • Shampoo
 • Toilet Paper
 
-**Miscellaneous**
-
-• Chocolate
+Let me know if you need any further assistance!
