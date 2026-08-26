@@ -17,8 +17,8 @@ Archives, libraries, museums, and any organization responsible for long-term dig
 Digital preservation and records transfer face a specific, recurring challenge:
 
 - **Files can be altered or corrupted** during transfer, storage, or over long periods of time, with no way to detect it unless integrity information was captured up front.
-- **There's often no standard way to package files with context** — who sent them, from what institution, for what purpose — alongside the files themselves.
-- **Learning a formal preservation standard like BagIt is often abstract** without a hands-on tool to actually create and validate a Bag.
+- **There's often no standard way to package files with context** who sent them, from what institution, for what purpose and alongside the files themselves.
+- **Learning a formal preservation standard like BagIt is often abstract** without a hands on tool to actually create and validate a Bag.
 - **Verifying a package's integrity later requires the right structure and checksums to have been created correctly in the first place.**
 
 ## 4. Project Objectives
@@ -33,7 +33,7 @@ Digital preservation and records transfer face a specific, recurring challenge:
 
 The video walks through the **"BagIt / Bagger Digital Preservation Learning App,"** covering both of its core functions:
 
-- **Creating a Bag**: the user fills in bag information — a bag name ("rotterdam-deck-plans-2022"), type of transfer, sender email, sender contact, and sender institution ("Holland America Line") — then uploads a file (a PDF of historical ship deck plans) as the Bag's payload. Clicking **"Create Bag"** produces a properly structured Bag, shown as a directory containing the payload data folder alongside standard BagIt metadata files (`bag-info.txt`, `bagit.txt`, `manifest-md5.txt`, `tagmanifest-md5.txt`), including a visible MD5 checksum computed for the uploaded file. The completed Bag can then be downloaded as a ZIP file.
+- **Creating a Bag**: the user fills in bag information, a bag name ("rotterdam-deck-plans-2022"), type of transfer, sender email, sender contact, and sender institution ("Holland America Line") and then uploads a file (a PDF of historical ship deck plans) as the Bag's payload. Clicking **"Create Bag"** produces a properly structured Bag, shown as a directory containing the payload data folder alongside standard BagIt metadata files (`bag-info.txt`, `bagit.txt`, `manifest-md5.txt`, `tagmanifest-md5.txt`), including a visible MD5 checksum computed for the uploaded file. The completed Bag can then be downloaded as a ZIP file.
 - **Validating a Bag**: the user uploads the just-created Bag ZIP file back into the app's validation tool and clicks **"Validate Bag."** The app checks the contents against their recorded checksums and reports **"PASS — all checked payload and tag files match their manifests,"** along with a summary confirming zero missing, extra, or modified files.
 
 ## 6. End-to-End Workflow, Step by Step
@@ -48,20 +48,20 @@ The video walks through the **"BagIt / Bagger Digital Preservation Learning App,
 
 ## 7. Systems and Applications Involved
 
-- **A Streamlit web application** — providing the Create Bag and Validate Bag interface
-- **The BagIt specification** — the underlying digital preservation packaging standard being implemented and taught
+- **A Streamlit web application** providing the Create Bag and Validate Bag interface
+- **The BagIt specification** the underlying digital preservation packaging standard being implemented and taught
 
 ## 8. Technologies Used
 
-- **Python** — the language used to build the application
-- **Streamlit** — for the web-based user interface
-- **The BagIt packaging format** — including standard metadata files (`bagit.txt`, `bag-info.txt`) and manifest files
-- **MD5 checksum generation** — for computing and verifying file integrity
-- **ZIP file handling** — for packaging and unpackaging Bags for download and validation
+- **Python** the language used to build the application
+- **Streamlit** for the web-based user interface
+- **The BagIt packaging format** including standard metadata files (`bagit.txt`, `bag-info.txt`) and manifest files
+- **MD5 checksum generation** for computing and verifying file integrity
+- **ZIP file handling** for packaging and unpackaging Bags for download and validation
 
 ## 9. Automation Logic
 
-When a Bag is created, the app automates the parts of the BagIt standard that are easy to get wrong by hand: it organizes the uploaded files into the required `data` folder, generates the standard metadata files with the correct format, and computes a checksum for every payload file, recording all of them in a manifest. Validation reverses this process — it recalculates the checksum for every file currently in the Bag and compares it against what the manifest originally recorded, flagging any file that's missing, unexpectedly present, or has changed. This is what allows a Bag's integrity to be verified with confidence, long after it was originally created, without needing to trust that nothing happened to it in the meantime.
+When a Bag is created, the app automates the parts of the BagIt standard that are easy to get wrong by hand: it organizes the uploaded files into the required `data` folder, generates the standard metadata files with the correct format, and computes a checksum for every payload file, recording all of them in a manifest. Validation reverses this process, it recalculates the checksum for every file currently in the Bag and compares it against what the manifest originally recorded, flagging any file that's missing, unexpectedly present, or has changed. This is what allows a Bag's integrity to be verified with confidence, long after it was originally created, without needing to trust that nothing happened to it in the meantime.
 
 ## 10. AI Capabilities
 
@@ -72,7 +72,7 @@ This project doesn't use AI. It is a direct, rules-based implementation of a for
 - Users fill in a straightforward form to provide Bag and sender information.
 - Users upload files through a simple drag-and-drop or browse interface.
 - A single button click creates a fully structured, checksum-verified Bag.
-- Validating a Bag is equally simple — upload the Bag ZIP (or use the one just created) and click to validate, receiving a clear pass/fail result.
+- Validating a Bag is equally simple as upload the Bag ZIP (or use the one just created) and click to validate, receiving a clear pass/fail result.
 
 ## 12. Inputs and Outputs
 
@@ -99,9 +99,9 @@ This project doesn't use AI. It is a direct, rules-based implementation of a for
 - Validating a Bag must check every file against its recorded checksum and clearly report any discrepancy.
 - A Bag is only considered valid if all checked payload and tag files match their manifests exactly.
 
-## 15. Key Features Demonstrated
+## 15. Key Features
 
-- Guided creation of a standards-compliant BagIt package
+- Guided creation of a standards compliant BagIt package
 - Automatic checksum generation for payload integrity
 - Clear visualization of the resulting Bag structure and manifest
 - Downloadable, portable Bag packages (ZIP format)
@@ -113,7 +113,7 @@ This project doesn't use AI. It is a direct, rules-based implementation of a for
 - **Protects the integrity of digital records** over time, by capturing verifiable checksums at the point of packaging.
 - **Standardizes how files are packaged for transfer or archiving**, rather than relying on ad hoc folder structures.
 - **Builds practical skills** in a real, industry-recognized preservation standard, in a safe, hands-on environment.
-- **Provides confidence during transfers** — a recipient can independently validate that what they received matches what was sent.
+- **Provides confidence during transfers** a recipient can independently validate that what they received matches what was sent.
 - **Supports compliance and audit needs** in records management, where provable data integrity may be a formal requirement.
 
 ## 17. Productivity Improvements
@@ -126,18 +126,18 @@ This project doesn't use AI. It is a direct, rules-based implementation of a for
 
 The BagIt pattern, and this kind of learning tool, applies directly to:
 
-- **Library and archive digital collections management** — packaging digitized materials for long-term storage
-- **Institutional records transfer** — moving records between departments or organizations with verifiable integrity
-- **Corporate compliance archiving** — preserving records in a way that can prove they haven't been altered
-- **Digital preservation training programs** — teaching archivists and records managers a real, applicable standard
-- **Any regulated data transfer scenario** — where proving a file hasn't changed since a specific point in time matters
+- **Library and archive digital collections management** packaging digitized materials for long-term storage
+- **Institutional records transfer** moving records between departments or organizations with verifiable integrity
+- **Corporate compliance archiving** preserving records in a way that can prove they haven't been altered
+- **Digital preservation training programs** teaching archivists and records managers a applicable standard
+- **Any regulated data transfer scenario** where proving a file hasn't changed since a specific point in time matters
 
 ## 19. Lessons Learned
 
 - Implementing a real, external standard (rather than inventing an ad hoc format) means the resulting packages are portable and recognizable to anyone else familiar with BagIt.
-- Automating checksum generation at the point of creation is what makes later verification meaningful — integrity checking is only as good as the original record it's compared against.
+- Automating checksum generation at the point of creation is what makes later verification meaningful and integrity checking is only as good as the original record it's compared against.
 - A clear, quantified validation result (missing/extra/modified counts) is far more useful than a simple pass/fail, especially when troubleshooting a failed validation.
-- Building a hands-on tool is often the most effective way to teach a formal standard — using BagIt directly makes the specification concrete in a way reading about it doesn't.
+- Building a hands-on tool is often the most effective way to teach a formal standard, using BagIt directly makes the specification concrete in a way reading about it doesn't.
 - Clearly labeling an educational tool as distinct from the official application it's inspired by is good practice, avoiding any confusion about authority or certification.
 
 ## 20. Possible Future Enhancements
@@ -146,5 +146,5 @@ The BagIt pattern, and this kind of learning tool, applies directly to:
 - Add support for packaging multiple files or entire folder structures as a single Bag payload.
 - Include a guided walkthrough or tooltip explanations of each part of the BagIt standard for newer learners.
 - Add batch validation, checking multiple Bags at once.
-- Provide a detailed, downloadable validation report for record-keeping purposes.
-- Add integration with cloud or institutional storage systems for direct Bag upload and retrieval.
+- Provide a detailed, downloadable validation report for record keeping purposes.
+- Add integration with automation, cloud or institutional storage systems for direct Bag upload and retrieval.
