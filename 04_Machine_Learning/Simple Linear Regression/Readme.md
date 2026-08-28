@@ -143,6 +143,3 @@ Possible improvements include:<br>
 •	Extend to Multiple Linear Regression<br>
 •	Build a Streamlit web application<br>
 •	Deploy the model using Flask or FastAPI
-
-# Acknowledgements
-This project was developed as part of learning Machine Learning with Python and Scikit-learn, demonstrating the end-to-end workflow of building a predictive regression model using business data.
