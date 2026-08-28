@@ -14,7 +14,7 @@
 | **[Foundry Local](https://learn.microsoft.com/azure/ai-foundry/)** | Microsoft's local AI/LLM runtime | Developers in the Microsoft ecosystem |
 | **[Unsloth](https://unsloth.ai/)** | LLM fine-tuning and optimization toolkit | Developers/researchers fine-tuning models |
 
-Each tool runs models locally and keeps data private by default — but they are built for very different jobs. Ollama, LM Studio, and Foundry Local are primarily **inference tools** (running an already-trained model), while Unsloth is primarily a **training toolkit** (customizing a model).
+Each tool runs models locally and keeps data private by default but they are built for very different jobs. Ollama, LM Studio, and Foundry Local are primarily **inference tools** (running an already-trained model), while Unsloth is primarily a **training toolkit** (customizing a model).
 
 ## Full Comparison Table
 
